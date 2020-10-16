@@ -61,9 +61,7 @@ legend {
   border: 2px solid green;
 }
 
-footer fieldset, footer fieldset legend {
-  border: 2px solid #01003C;
-}
+
 
 footer {
   display: block;
