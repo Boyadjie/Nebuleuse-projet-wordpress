@@ -7,16 +7,15 @@
 
 <section id='content'>
   <aside>
-    <div class="sidebar">
+    <fieldset id="fieldsetsidebar">
   <!--<legend>index.php: &lt;aside&gt; + <code>get_sidebar()</code></legend>-->
   <?php get_sidebar(); ?>
-    </div>
   </aside>
 
-<div class="content">
+  <fieldset id="fieldsetcontent">
     <!--<legend>index.php: contenu avec the_loop <code>while ( have_posts() )</code></legend>-->
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-  <div class="post">
+  <fieldset class="post">
     <!--<legend>Article <code>the_post()</code> :</legend>-->
 
    	<!-- Display the Title as a link to the Post's permalink. -->
@@ -32,8 +31,10 @@
    	<!-- Display the Post's content in a div box. -->
 
    	<div class="entry">
-    <!-- contenu de l'article-->
+      <fieldset>
+       <!--<legend>Contenu de l'article <code>the_content()</code></legend>-->
    		<?php the_content(); ?>
+    </fieldset>
    	</div>
 
     <p style="font-size:.9em;">
@@ -43,19 +44,19 @@
    	<span class="postmetadata">Posté dans <?php the_category( ', ' ); ?></span>
   </p>
 
-    <div class="comentaires" style="margin-left:10%;">
+    <fieldset style="margin-left:10%;">
       <!--<legend>Commentaires : <code>comments_template()</code></legend>-->
 <?php
     if ( comments_open() || get_comments_number() ) :
               comments_template();
     endif;?>
-  </div>
-  </div> <!-- closes the first div box -->
+    </fieldset>
+  </fieldset> <!-- closes the first div box -->
 
 <?php endwhile; else : ?>
 	<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
 <?php endif; ?>
-</div>
+</fieldset>
 </section>
 
 <?php get_footer(); ?>
