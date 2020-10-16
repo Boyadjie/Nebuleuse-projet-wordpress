@@ -13,7 +13,7 @@ header {
 }
 
 header fieldset, header fieldset legend {
-  border: 2px solid blue;
+  border: none;
 }
 
 header nav {
@@ -50,7 +50,7 @@ legend {
   }
 
 #fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend  {
-  border: 2px solid red;*/
+  border: none;
 }
 
 #content > aside {
@@ -58,10 +58,12 @@ legend {
 }
 
 #fieldsetsidebar, #fieldsetsidebar legend {
-  border: 2px solid green;
+  border: none;
 }
 
-
+footer fieldset, footer fieldset legend {
+  border: none;
+}
 
 footer {
   display: block;
