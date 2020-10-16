@@ -20,7 +20,7 @@
 
    	<!-- Display the Title as a link to the Post's permalink. -->
 
-   	<h2><code>the_title()</code>: <a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+   	<h2> Titre du site <code>the_title()</code>: <a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 
 
    	<!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author. -->
