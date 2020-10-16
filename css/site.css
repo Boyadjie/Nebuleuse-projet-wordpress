@@ -49,7 +49,7 @@ legend {
     text-shadow: #fff 1px 1px 1px;
   }
 
-/*#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend  {
+#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend  {
   border: 2px solid red;*/
 }
 
@@ -57,13 +57,13 @@ legend {
   float: right;
 }
 
-/*#fieldsetsidebar, #fieldsetsidebar legend {
+#fieldsetsidebar, #fieldsetsidebar legend {
   border: 2px solid green;
-} */
+}
 
-/*footer fieldset, footer fieldset legend {
-  border: 2px solid purple;
-} */
+footer fieldset, footer fieldset legend {
+  border: 2px solid #01003C;
+}
 
 footer {
   display: block;
