@@ -9,7 +9,6 @@ body {
 header {
   display: block;
   color: navy;
-  ;
 }
 
 header fieldset, header fieldset legend {
@@ -21,30 +20,34 @@ header nav {
 
 #menuprincipal ul {
 	list-style-type: none; list-style-image: none;
-  }
-#menuprincipal li {display: inline; }
-#menuprincipal ul li a {text-decoration:none;  margin: 4px;
+}
+#menuprincipal li {
+  display: inline;
+}
+
+#menuprincipal ul li a{
+  text-decoration:none;  margin: 4px;
 	padding: 5px 20px 5px 20px; color: black;
 }
-#menuprincipal ul li a:hover {color: black;
-	background: yellow; }
+
+#menuprincipal ul li a:hover {
+  color: #C97EFF;
+}
 
 #legendemenuprincipal  {
   float:left;
 }
 
 fieldset {
-  margin: 0px;
+  margin: 10px;
 }
-
 fieldset, legend {
     background-color: #eee;
-    border-radius: 0px;
+    border-radius: 5px;
     }
-
 legend {
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
     font-weight: normal;
     font-style: italic;
     font-size: 1em;
