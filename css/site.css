@@ -9,6 +9,7 @@ body {
 header {
   display: block;
   color: navy;
+  ;
 }
 
 header fieldset, header fieldset legend {
@@ -33,15 +34,17 @@ header nav {
 }
 
 fieldset {
-  margin: 10px;
+  margin: 0px;
 }
+
 fieldset, legend {
     background-color: #eee;
-    border-radius: 5px;
+    border-radius: 0px;
     }
+
 legend {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
     font-weight: normal;
     font-style: italic;
     font-size: 1em;
