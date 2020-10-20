@@ -8,8 +8,9 @@
 <section id='content'>
   <aside>
     <fieldset id="fieldsetsidebar">
-  <!--<legend>index.php: &lt;aside&gt; + <code>get_sidebar()</code></legend>-->
-  <?php get_sidebar(); ?>
+      <!--<legend>index.php: &lt;aside&gt; + <code>get_sidebar()</code></legend>-->
+      <?php get_sidebar(); ?>
+    </fieldset>
   </aside>
 </section>
 
