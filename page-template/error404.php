@@ -1,10 +1,7 @@
 <?php
-// à utiliser avec front-page.php
-//wp_redirect(site_url());
 /**
-  * Template name : error 404
+* Template Name : error404
 */
-//exit;
 ?>
 <?php get_header(); ?>
 

@@ -1,10 +1,7 @@
 <?php
-// à utiliser avec front-page.php
-//wp_redirect(site_url());
 /**
-  * Template name : projet
+* Template Name : projet
 */
-//exit;
 ?>
 <?php get_header(); ?>
 

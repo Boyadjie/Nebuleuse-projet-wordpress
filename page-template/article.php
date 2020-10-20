@@ -1,10 +1,7 @@
 <?php
-// à utiliser avec front-page.php
-//wp_redirect(site_url());
 /**
-  * Template name : Article
+* Template Name : article
 */
-//exit;
 ?>
 <?php get_header(); ?>
 
