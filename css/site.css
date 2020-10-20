@@ -64,6 +64,7 @@ legend {
 
 #fieldsetsidebar, #fieldsetsidebar legend {
   border: none;
+  background-color: #C97EFF;
 }
 
 footer fieldset, footer fieldset legend {
