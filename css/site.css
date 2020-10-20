@@ -8,11 +8,14 @@ body {
 
 header {
   display: block;
-  color: navy;
+  color: black;
+  background-color: #E9C3FF ;
 }
 
 header fieldset, header fieldset legend {
-  border: none;}
+  border: none;
+
+}
 
 header nav {
   display:block;
@@ -20,6 +23,7 @@ header nav {
 
 #menuprincipal ul {
 	list-style-type: none; list-style-image: none;
+  float: right;
 }
 #menuprincipal li {
   display: inline;
@@ -36,13 +40,14 @@ header nav {
 
 #legendemenuprincipal  {
   float:left;
+  color : grey;
 }
 
 fieldset {
   margin: 10px;
 }
 fieldset, legend {
-    
+
     border-radius: 5px;
 }
 
@@ -53,6 +58,7 @@ legend {
     font-style: italic;
     font-size: 1em;
     text-shadow: #fff 1px 1px 1px;
+
   }
 
 #fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend  {
