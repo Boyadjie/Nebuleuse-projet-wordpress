@@ -19,7 +19,7 @@ header nav {
   display:block;
 }
 
-#menuprincipal ul {margin: 0; padding: 0;
+#menuprincipal ul {
 	list-style-type: none; list-style-image: none; }
 #menuprincipal li {display: inline; }
 #menuprincipal ul li a {text-decoration:none;  margin: 4px;
