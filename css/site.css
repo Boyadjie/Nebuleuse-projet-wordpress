@@ -42,9 +42,10 @@ fieldset {
   margin: 10px;
 }
 fieldset, legend {
-    background-color: #eee;
+    background-color: #000000;
     border-radius: 5px;
-    }
+}
+
 legend {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
