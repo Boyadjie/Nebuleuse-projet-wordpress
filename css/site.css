@@ -4,6 +4,8 @@ Auteur : Mathieu Mangeot
 body {
   font-family: "Lucida Grande",Tahoma,Helvetica,sans-serif;
   background-color: white ;
+  top : 0;
+  left : 0;
 }
 
 header {
@@ -40,7 +42,7 @@ header nav {
 
 #legendemenuprincipal  {
   float:left;
-  color : grey;
+
 }
 
 fieldset {
@@ -71,7 +73,14 @@ legend {
 
 #fieldsetsidebar, #fieldsetsidebar legend {
   border: none;
-  background-color: #C97EFF;
+  background-color: #E9C3FF;
+  color :  black;
+}
+
+#fieldsetsidebar ul li {
+  list-style-type: none;
+  list-style-image: none;
+
 }
 
 footer fieldset, footer fieldset legend {
