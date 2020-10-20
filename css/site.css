@@ -25,7 +25,7 @@ header nav {
 #menuprincipal ul li a {text-decoration:none;  margin: 4px;
 	padding: 5px 20px 5px 20px; color: blue;
 }
-#menuprincipal ul li a:hover {color: purple;
+#menuprincipal ul li a:hover {color: black;
 	background: yellow; }
 
 #legendemenuprincipal  {
