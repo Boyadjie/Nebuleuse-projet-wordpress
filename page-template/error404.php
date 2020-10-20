@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name : error404
+* Template Name: error404
 */
 ?>
 <?php get_header(); ?>

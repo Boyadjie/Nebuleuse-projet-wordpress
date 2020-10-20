@@ -1,7 +1,7 @@
 <?php
 /**
-* Template Name : article
-*/
+ * Template Name: article
+ */
 ?>
 <?php get_header(); ?>
 
