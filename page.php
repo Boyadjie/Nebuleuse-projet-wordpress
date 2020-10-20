@@ -6,12 +6,6 @@
 <?php get_header(); ?>
 
 <section id='content'>
-  <aside>
-    <fieldset id="fieldsetsidebar">
-  <!--<legend>index.php: &lt;aside&gt; + <code>get_sidebar()</code></legend>-->
-  <?php get_sidebar(); ?>
-  </aside>
-
   <fieldset id="fieldsetcontent">
     <!--<legend>index.php: contenu avec the_loop <code>while ( have_posts() )</code></legend>-->
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
