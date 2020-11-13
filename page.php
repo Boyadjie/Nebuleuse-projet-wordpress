@@ -3,7 +3,7 @@
 //wp_redirect(site_url());
 //exit;
 ?>
-<?php get_header(); ?>
+<?php get_header("pages"); ?>
 
 <section id='content'>
   <aside>
