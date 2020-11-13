@@ -73,15 +73,15 @@ legend {
 
   }
 
-#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend  {
+#fieldsetcontent, #fieldsetcontent div, #fieldsetcontent legend, .post, .entry div,  .entry legend  {
   border: none;
 }
 
-#content > aside {
+aside {
   float: right;
 }
 
-#fieldsetsidebar, #fieldsetsidebar legend {
+#fieldsetsidebar{
   border: none;
   background-color: #E9C3FF;
   color :  black;
@@ -93,7 +93,7 @@ legend {
 
 }
 
-footer fieldset, footer fieldset legend {
+footer div, footer div legend {
   border: none;
 }
 
